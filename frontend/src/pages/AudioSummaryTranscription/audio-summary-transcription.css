@@ -1,0 +1,156 @@
+.summary-page{
+  background-image: url(https://cdn.animaapp.com/projects/64252e1554bf0badf3b6075d/releases/64fd585518c1533d05dd887e/img/background.png);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.player-div{
+  height: 350px;
+}
+
+.audio{
+  width: 100%;
+}
+
+.summary-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.timestamps{
+  font-weight: 600;
+  color: #096f6c;
+}
+
+.timestamps:hover{
+  color: #000;
+}
+
+.left-half {
+  flex: 1;
+  padding: 0 20px 0 20px;
+}
+
+.right-half {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.next-button{
+  all: unset; 
+  text-align: center; /* Center text horizontally */
+  background-color: #ffffff;
+  padding: 10px 0px;
+  border-radius: 15px;
+  margin: 10px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  width: 150px;
+  height:30px;
+}
+
+.upper-half {
+  flex: 1;
+  padding: 0 20px 0 20px;
+}
+
+.lower-half {
+  flex: 1;
+  padding: 0 20px 0 20px;
+}
+
+.summarization {
+  height: 84.5%;
+  width: 100%;
+  
+}
+
+.text-wrapper-2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  
+}
+
+.textarea {
+  height: 90%;
+  width: 100%;
+  background-color: #ffffff5e;
+  border-radius: 5px;
+  resize: none;
+  border:none;
+}
+
+.line-breaker {
+  width: 2px;
+  background-color: #000; /* You can change the color as needed */
+  height: 87%;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+}
+
+.textarea-video {
+  height: calc(100% - 50px);
+  width: 100%;
+  background-color: #ffffff5e;
+  border-radius: 5px;
+  resize: none;
+  border:none;
+}
+
+.transcription {
+  height: 80%;
+  width: 100%;
+}
+
+.textarea-transcript {
+  height: calc(100% - 34px);
+  width: 100%;
+  background-color: #ffffff5e;
+  border-radius: 5px;
+  resize: none;
+  border:none;
+}
+
+.export-btn{
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  height:35px;  
+  display: flex;
+  align-items: center;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+.icon-img2 {
+  margin-left: 8px; /* Adjust margin as needed to create space between text and icon */
+  width: 25px;
+}
+
+.export-btn-div{
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}

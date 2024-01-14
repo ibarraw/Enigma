@@ -1,0 +1,56 @@
+#This package provides a framework for server-agnostic asynchronous programming in Python. 
+#It is a dependency of Django and is required for running Django applications.
+asgiref==3.7.2
+
+#This is the core package of the Django web framework. 
+#It provides the necessary components for building web applications, including models, views, templates, 
+#and the ORM (Object-Relational Mapping) layer
+Django==4.2.2
+
+#This package enables Cross-Origin Resource Sharing (CORS) headers in Django applications. 
+#It allows your Django backend to handle requests from different origins, which is useful when building APIs that are 
+#consumed by frontend applications hosted on different domains
+django-cors-headers==4.1.0
+
+#This package is a powerful and flexible toolkit for building Web APIs in Django. 
+#It provides a set of utilities and classes for building RESTful APIs, including serializers, authentication, pagination, and more
+djangorestframework==3.14.0
+
+#Gunicorn (Green Unicorn) is a Python WSGI HTTP server that serves Django applications. 
+#It is commonly used in production environments to handle incoming HTTP requests and route them to Django for processing
+gunicorn==20.1.0
+
+#This package provides timezone definitions for Python. 
+#It is commonly used in Django projects to handle timezone-related operations and conversions
+pytz==2023.3
+
+#This package provides a SQL parser and formatter for Python. 
+#It is used by Django to format SQL queries for better readability and debugging
+sqlparse==0.4.4
+
+#This package provides timezone data files for Python. 
+#It is used in conjunction with the pytz package to handle timezone-related operations
+tzdata==2023.3
+
+#This package provides a set of utilities for testing Django applications.
+coverage==5.5
+
+# The OpenAI Python library provides convenient access to the OpenAI API from applications written in the Python language. 
+# It includes a pre-defined set of classes for API resources that initialize themselves dynamically from API responses which makes it compatible 
+# with a wide range of versions of the OpenAI API.
+# You can find usage examples for the OpenAI Python library in the API reference 
+# https://platform.openai.com/docs/api-reference?lang=python) 
+# and the OpenAI Cookbook.
+# https://github.com/openai/openai-cookbook/
+openai==0.28.0
+
+#The requests library in Python is a widely-used package that simplifies the process of sending HTTP requests to web services and APIs. 
+#It provides a convenient and user-friendly way to interact with web resources and retrieve data from remote servers
+requests==2.26.0
+
+pytube==15.0.0
+assemblyai==0.19.0  # Replace with the latest version if needed
+
+#Assembly ai needed this. No version specified = always latest version
+pydantic-settings 
+

@@ -1,0 +1,147 @@
+.background-text {
+    background-image: url(https://cdn.animaapp.com/projects/64252e1554bf0badf3b6075d/releases/64fd585518c1533d05dd887e/img/background.png);
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.text-summary-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.text-half {
+    flex: 1;
+    padding: 0 20px 0 20px;
+}
+
+.text-line {
+	height: 90%;
+    width: 2px;
+    background-color: black;
+}
+
+.summary-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.button-container {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-area {
+    margin: 0px 10px;
+}
+
+.btnSummarize{
+    all: unset;
+    box-sizing: border-box;
+    height: 45px;
+    width: 15%;
+    left: 50%; /* Horizontally center the element */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 86%; /* Vertically center the element */
+    text-align: center; /* Center text horizontally */
+    background-color: #ffffff;
+    padding: 10px 0px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.toggle-switch { 
+    position: relative; 
+    width: 75px; 
+    display: inline-block; 
+    text-align: left; 
+    top: 8px; 
+  } 
+  .checkbox { 
+    display: none; 
+  } 
+  .label { 
+    display: block; 
+    overflow: hidden; 
+    cursor: pointer; 
+    border: 0 solid #bbb; 
+    border-radius: 20px; 
+  } 
+  .inner { 
+    display: block; 
+    width: 200%; 
+    margin-left: -100%; 
+    transition: margin 0.3s ease-in 0s; 
+  } 
+  .inner:before, 
+  .inner:after { 
+    float: left; 
+    width: 50%; 
+    height: 32px; 
+    padding: 0; 
+    line-height: 36px; 
+    color: #fff; 
+    font-weight: bold; 
+    box-sizing: border-box; 
+  } 
+  .inner:before { 
+    content: "YES"; 
+    padding-left: 10px; 
+    background-color: #060; 
+    color: #fff; 
+  } 
+  .inner:after { 
+    content: "NO"; 
+    padding-right: 10px; 
+    background-color: #bbb; 
+    color: #fff; 
+    text-align: right; 
+  } 
+  .switch { 
+    display: block; 
+    width: 24px; 
+    margin: 5px; 
+    background: #fff; 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    right: 40px; 
+    border: 0 solid #bbb; 
+    border-radius: 20px; 
+    transition: all 0.3s ease-in 0s; 
+  } 
+  .checkbox:checked + .label .inner { 
+    margin-left: 0; 
+  } 
+  .checkbox:checked + .label .switch { 
+    right: 0px; 
+  } 
+
+  .pointForm{
+    font-size: 20px;
+    padding-right: 5px;
+    font-weight: 550;
+  }
+
+  .pointFormContainer{
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+  

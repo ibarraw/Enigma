@@ -1,0 +1,288 @@
+.main {
+  background-image: url(https://cdn.animaapp.com/projects/64252e1554bf0badf3b6075d/releases/64fd585518c1533d05dd887e/img/background.png);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main .text-wrapper {
+  color: #000000;
+  font-family: "Sintony", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 50%; /* Horizontally center the element */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20%; /* Vertically center the element */
+  text-align: center; /* Center text horizontally */
+  white-space: nowrap;
+}
+
+.main .div {
+  color: #ff385b;
+  font-family: "Sintony", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  left: 50%; /* Horizontally center the element */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30%; /* Vertically center the element */
+  text-align: center; /* Center text horizontally */
+}
+
+.main .p {
+  color: #000000;
+  font-family: "Sintony", Helvetica;
+  font-size: 24px;
+  font-weight: 300;
+  left: 50%; /* Horizontally center the element */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40%; /* Vertically center the element */
+  text-align: center; /* Center text horizontally */
+  white-space: nowrap;
+}
+
+.main .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px;
+    margin-top: 23%;
+    align-items: center;
+}
+
+
+.main .box{
+	border: 3px solid #000000;
+	padding: 10px;
+	text-align: center;
+	align-items: center; /* Center vertically */
+	flex: 1; /* Equal width for all boxes */
+	border-color: #000;
+	color: #000;
+	border-radius: 23px;
+	background-color: transparent;
+  margin-right: 5px; 
+  }
+
+  .main .focused-box{
+	border: 3px solid grey;
+	opacity: 0.8;
+  }
+  
+  .main #box1 #box2 #box3{
+	border: 2px solid;
+	border-color: #000000;
+	border-radius: 23px;
+	border: 5px solid #000000;
+  }
+  
+  
+  .main .video-link{
+	background-color: #e7e7e7b0;
+	border-radius: 12px;
+	height: 35px;
+	width: 85%;
+	padding: 5px 5px 5px 5px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border: none;
+	resize: none;
+	float: right;
+	
+  }
+  
+  .main .input-file {
+	cursor: pointer;
+	opacity: 0; /* make transparent */
+	z-index: -1; /* move under anything else */
+	position: absolute; /* don't let it take up space */
+  }
+  ::file-selector-button {
+	display: none;
+  }
+
+  .main .icon-img{
+	width: 12%;
+	float: left;
+	margin-left: 2%;
+  }
+  
+  .main .icon-img2{
+	width: 8%;
+	float: left;
+	margin-left: 2%;
+  }
+  
+  .main .icon-img3{
+	width: 8%;
+	float: left;
+	margin-left: 2%;
+  }
+  
+  .main #file-input-label{
+	float: left;
+	margin-left: 8px;
+	font-size:24px
+  }
+
+  .main .input-summaryBtn{
+    font-size:24px;
+    float: left;
+	  margin-left: 8px;
+  }
+
+  .svg-inline--fa {
+    height: 2em;
+  }
+
+
+  .main .next-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 45px;
+    width: 15%;
+    left: 50%; /* Horizontally center the element */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 80%; /* Vertically center the element */
+    text-align: center; /* Center text horizontally */
+    background-color: #ffffff;
+    padding: 10px 0px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+
+.main .input-rect {
+  border: 4px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 50px;
+  left: 95px;
+  position: absolute;
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main .input-rect:nth-child(1) {
+  left: 23%;
+  top: 70%; /* Adjust the top position as needed */
+}
+
+.main .input-rect:nth-child(2) {
+  left: 53%;
+  top: 70%; /* Adjust the top position as needed */
+}
+.main .line {
+  height: 2px;
+  width: 50px; /* Adjust the width of the line divider as needed */
+  background-color: #000; /* Adjust the color as needed */
+}
+
+.main .text-area {
+  background-color: #e7e7e7b0;
+  border-radius: 12px;
+  height: 35px;
+  left: 55px;
+  position: absolute;
+  top: 8px;
+  width: 224px;
+  padding: 8px 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+}
+
+.main .you-tube {
+  height: 50px;
+  left: 8px;
+  position: absolute;
+  top: 1px;
+  width: 42px;
+}
+
+.main .upload-file {
+  height: 50px;
+  left: 8px;
+  position: absolute;
+  top: 1px;
+  width: 42px;
+}
+
+.main .cloud-upload {
+  height: 50px;
+  left: 8px;
+  position: absolute;
+  top: 1px;
+  width: 42px;
+}
+
+.main .next-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 45px;
+  width: 15%;
+  left: 50%; /* Horizontally center the element */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 85%; /* Vertically center the element */
+  text-align: center; /* Center text horizontally */
+  background-color: #ffffff;
+  padding: 10px 0px;
+  border-radius: 15px;
+  margin: 10px 0px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main .overlap {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 71px;
+  position: relative;
+  width: 253px;
+}
+
+.main .text-wrapper-3 {
+  color: #000000;
+  font-family: "Sintony", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 82px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+}
+
+.main .line {
+  height: 140px;
+  left: 910px;
+  position: absolute;
+  top: 727px;
+  width: 3px;
+}
